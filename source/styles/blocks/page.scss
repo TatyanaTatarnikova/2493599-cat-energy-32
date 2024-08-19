@@ -1,0 +1,7 @@
+.page {
+  height: 100%;
+}
+
+.page__body {
+  @include font($font-main, 14px, 400, 18px, #444444);
+}

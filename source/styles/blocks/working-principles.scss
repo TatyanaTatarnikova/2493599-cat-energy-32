@@ -1,0 +1,12 @@
+.working-principles__title {
+  @include font($font-second, 36px, 400, 40px, #000000);
+  margin: 0;
+}
+
+.working-principles__description {
+  margin: 0;
+}
+
+.working-principles__list {
+  @include list;
+}

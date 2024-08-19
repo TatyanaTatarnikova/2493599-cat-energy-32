@@ -1,0 +1,10 @@
+.product-description {
+  @include font ($font-main, 12px, 400, 16px, #444444);
+}
+
+.product-description__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 140px;
+}

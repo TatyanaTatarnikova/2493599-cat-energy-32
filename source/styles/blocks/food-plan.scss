@@ -1,0 +1,23 @@
+.food-plan__title {
+  @include font($font-second, 24px, 400, 37px, #000000);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.food-plan__description {
+  margin: 0;
+}
+
+.food-plan__list {
+  @include list;
+}
+
+.food-plan__item {
+  background-color: $bg-basic;
+}
+
+.food-plan__link {
+  @include font($font-second, 16px, 400, 16px, #000000);
+  @include link;
+  text-transform: uppercase;
+}
