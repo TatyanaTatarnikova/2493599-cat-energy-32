@@ -3,10 +3,15 @@
 }
 
 .real-case__title {
-  @include font($font-second, 36px, 400, 40px, #000000);
+  @include font($font-second, 36px, 400, 40px, $color-dark);
   margin: 0;
 }
 
 .real-case__description {
   margin: 0;
+}
+
+.real-case__cost {
+  @include font ($font-second, 14px, 400, 20px, $color-dark);
+  text-transform: uppercase;
 }

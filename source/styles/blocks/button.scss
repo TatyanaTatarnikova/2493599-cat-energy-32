@@ -1,0 +1,13 @@
+.button {
+  @include link;
+  @include font ($font-second, 16px, 400, 20px, $color-ligth);
+  text-transform: uppercase;
+  background-color: $color-accent;
+}
+
+.button--light {
+  @include link;
+  @include font ($font-second, 16px, 400, 20px, $color-medium);
+  text-transform: uppercase;
+  background-color: $bg-basic;
+}

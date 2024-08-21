@@ -1,0 +1,10 @@
+.our-address__title {
+  @include font ($font-second, 16px, 400, 20px, #111111);
+  text-transform: uppercase;
+}
+
+.our-address__text {
+  font-style: inherit;
+
+  @include font ($font-main, 14px, 400, 20px, $color-medium);
+}

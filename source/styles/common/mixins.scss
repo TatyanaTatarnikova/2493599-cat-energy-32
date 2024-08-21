@@ -25,12 +25,5 @@
 @mixin link {
   text-decoration: none;
   color: inherit;
-}
-
-@mixin button {
-  @include font ($font-second, 16px, 400, 20px, #ffffff);
-  text-transform: uppercase;
-  background-color: $color-accent;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-family: inherit;
 }
