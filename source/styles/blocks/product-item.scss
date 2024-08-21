@@ -1,0 +1,11 @@
+.product-item__title {
+  @include font ($font-second, 16px, 400, 16px, #222222);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.product-item_info {
+  @include font ($font-main, 14px, 400, 14px, $color-medium);
+  text-transform: none;
+  margin: 0;
+}

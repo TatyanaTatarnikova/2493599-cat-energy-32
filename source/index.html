@@ -5,19 +5,19 @@
   <meta charset="UTF-8">
   <title>Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles/styles.css">
   <link rel="icon" href="favicon.ico" sizes="32x32">
   <link rel="icon" href="favicons/icon.svg" type="image/svg+xml" sizes="32x32">
   <link rel="apple-touch-icon" href="favicons/180.png" sizes="180x180">
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer></script>
 </head>
 
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo logo" href="#">
-      <img class="logo__image logo-icon" src="#" width="33" height="38" alt="Товарный знак">
-      <img class="logo__image logo-text" src="#" width="101" height="18" alt="Логотип Cat Energy">
+      <img class="logo__image" src="#" width="33" height="38" alt="Товарный знак">
+      <img class="logo__text" src="#" width="101" height="18" alt="Логотип Cat Energy">
     </a>
     <nav class="main-header__nav main-nav">
       <button class="main-nav__burger-menu" type="button">
@@ -33,16 +33,16 @@
   <main class="main-container">
     <h1 class="visually-hidden">Онлайн-магазин кормов для котов Cat Energy</h1>
     <section class="hero">
-      <h2 class="hero__title title">Функциональное питание для котов</h2>
+      <h2 class="hero__title">Функциональное питание для котов</h2>
       <p class="hero__slogan">Занялся собой? Займись котом!</p>
-      <a class="hero__link-img" href="#">
+      <a class="hero__link-image" href="#">
         <picture>
           <source media="(min-width: 1440px)" width="552" height="499" type="image/png" srcset="images/main-product-desktop@1x.png 1x, images/main-product-desktop@2x.png 2x">
           <source media="(min-width: 768px)" width="709" height="609" type="image/png" srcset="images/main-product-tablet@1x.png 1x, images/main-product-tablet@2x.png 2x">
           <img class="hero__image" src="images/main-product-mobile@1x.png" srcset="images/main-product-mobile@2x.png 2x" width="280" height="270" alt="Фото упаковки корма Cat Energy со вкусом курицы 500г">
         </picture>
       </a>
-      <a class="hero__link button" href="#">Подобрать программу</a>
+      <a class="hero__link-button button" href="#">Подобрать программу</a>
     </section>
     <section class="food-plan">
       <h2 class="visually-hidden">Программы питания</h2>
@@ -50,17 +50,17 @@
         <li class="food-plan__item food-plan__item--slim">
           <h3 class="food-plan__title">Похудение</h3>
           <p class="food-plan__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям?Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-          <a href="#">Каталог slim</a>
+          <a class="food-plan__link" href="#">Каталог slim</a>
         </li>
         <li class="food-plan__item food-plan__item--pro">
           <h3 class="food-plan__title">Набор массы</h3>
           <p class="food-plan__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
-          <a href="#">Каталог pro</a>
+          <a class="food-plan__link" href="#">Каталог pro</a>
         </li>
       </ul>
     </section>
     <section class="working-principles">
-      <h2 class="working-principles__title title">Как это работает</h2>
+      <h2 class="working-principles__title">Как это работает</h2>
       <ul class="working-principles__list">
         <li class="working-principles__item">
           <p class="working-principles__description">Функциональное питание содержит только полезные питательные вещества.</p>
@@ -77,7 +77,7 @@
       </ul>
     </section>
     <section class="real-case">
-      <h2 class="real-case__title title">Живой пример</h2>
+      <h2 class="real-case__title">Живой пример</h2>
       <p class="real-case__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
       <dl class="real-case__stats stats">
         <div class="stats__item">
@@ -106,9 +106,9 @@
       </div>
     </section>
     <section class="contacts">
-      <div class="contacts__card contact-us">
-        <h2 class="contact-us__title">Приглашаем к сотрудничеству дилеров!</h2>
-        <address class="contact-us__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+      <div class="contacts__card our-address">
+        <h2 class="our-address__title">Приглашаем к сотрудничеству дилеров!</h2>
+        <address class="our-address__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
       </div>
       <div class="contacts__map map">
         <picture>
@@ -121,7 +121,7 @@
   </main>
   <footer class="footer">
     <a class="footer__logo logo" href="#">
-      <img class="logo__image logo-text" src="#" width="101" height="18" alt="Логотип Cat Energy">
+      <img class="logo__text" src="#" width="101" height="18" alt="Логотип Cat Energy">
     </a>
     <ul class="footer__social social-list">
       <li class="social-list__item">

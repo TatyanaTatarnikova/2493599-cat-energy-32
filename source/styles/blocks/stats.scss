@@ -1,0 +1,14 @@
+.stats {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.stats__number {
+  @include font ($font-second, 24px, 400, 24px, $color-dark);
+  text-transform: uppercase;
+}
+
+.stats__description {
+  @include font ($font-main, 12px, 400, 12px, #c4c4c4);
+}

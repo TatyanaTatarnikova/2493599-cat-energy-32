@@ -1,0 +1,9 @@
+.advertisement {
+  background-color: $color-accent;
+}
+
+.advertisement__title {
+  @include font ($font-main, 16px, 400, 20px, $color-ligth);
+  text-align: center;
+  margin: 0;
+}

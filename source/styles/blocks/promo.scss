@@ -1,0 +1,9 @@
+.promo__title {
+  @include font ($font-second, 24px, 400, 24px, $color-dark);
+  margin: 0;
+}
+
+.promo__description {
+  @include font ($font-second, 16px, 400, 24px, $color-dark);
+  margin: 0;
+}

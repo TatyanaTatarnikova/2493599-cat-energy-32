@@ -1,0 +1,8 @@
+.product__title {
+  @include font ($font-second, 20px, 400, 24px, #222222);
+  margin: 0;
+}
+
+.product__link {
+  text-decoration: none;
+}
