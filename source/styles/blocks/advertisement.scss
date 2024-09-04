@@ -1,9 +1,17 @@
 .advertisement {
   background-color: $color-accent;
+  color: $color-ligth;
+  background-image: url("../../icons/stack.svg#gift");
+  background-repeat: no-repeat;
+  background-size: 78px 80px;
+  background-position: 50% 10px;
+  display: block;
+  min-height: 290px;
+  padding: 187px 61px 43px 58px;
 }
 
 .advertisement__title {
   @include font ($font-main, 16px, 400, 20px, $color-ligth);
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
 }
