@@ -1,3 +1,24 @@
-// .academy-logo {
+.academy-logo {
+  @include link;
+  @include font ($font-main, 16px, 400, 20px, $color-medium);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+}
 
-// }
+.academy-logo::after {
+  content: "";
+  background-color: #666666;
+  width: 27px;
+  height: 34px;
+  mask-image: url("../../icons/stack.svg#html-academy-logo");
+  mask-position: 50%;
+  mask-repeat: no-repeat;
+  display: block;
+}
+
+.academy-logo:hover::after,
+.academy-logo:focus-visible::after {
+  background-color: $color-accent;
+}

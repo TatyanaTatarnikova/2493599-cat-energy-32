@@ -1,5 +1,5 @@
 .food-plan__title {
-  @include font($font-second, 24px, 400, 37px, #000000);
+  @include font($font-second, 24px, 400, 37px, $color-dark);
   text-transform: uppercase;
   margin: 0;
 }
@@ -14,10 +14,24 @@
 
 .food-plan__item {
   background-color: $bg-basic;
+  background-repeat: no-repeat;
+  min-width: 280px;
+}
+
+.food-plan__item--slim {
+  background-image: url("../../icons/stack.svg#cat-slim");
+  background-size: 50px 53px;
+  background-position: 20px 20px;
+}
+
+.food-plan__item--pro {
+  background-image: url("../../icons/stack.svg#cat-pro");
+  background-size: 67px 50px;
+  background-position: 20px 20px;
 }
 
 .food-plan__link {
-  @include font($font-second, 16px, 400, 16px, #000000);
+  @include font($font-second, 16px, 400, 16px, $color-dark);
   @include link;
   text-transform: uppercase;
 }

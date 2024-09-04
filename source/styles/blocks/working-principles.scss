@@ -10,3 +10,29 @@
 .working-principles__list {
   @include list;
 }
+
+.working-principles__item::before {
+  content: "";
+  background-color: $color-accent;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+
+.working-principles__leaf::before {
+  background-image: url("../../icons/stack.svg#leaf-icon");
+}
+
+.working-principles__drink::before {
+  background-image: url("../../icons/stack.svg#drink-icon");
+}
+
+.working-principles__flatware::before {
+  background-image: url("../../icons/stack.svg#flatware-icon");
+}
+
+.working-principles__clock::before {
+  background-image: url("../../icons/stack.svg#flatware-icon");
+}

@@ -1,6 +1,17 @@
 .product__title {
   @include font ($font-second, 20px, 400, 24px, #222222);
   margin: 0;
+  padding: 0;
+}
+
+.product__title--more::before {
+  content: "";
+  background-image: url("../../icons/stack.svg#plus-button");
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto 23px;
+  display: block;
 }
 
 .product__link {

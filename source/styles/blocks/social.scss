@@ -1,0 +1,35 @@
+.social {
+  @include list;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+.social__link::before {
+  background-color: #666666;
+  min-width: 28px;
+  min-height: 22px;
+  display: block;
+  mask-position: 50%;
+  mask-repeat: no-repeat;
+  content: "";
+}
+
+.social__link--vk::before {
+  mask-image: url("../../icons/stack.svg#vk");
+}
+
+.social__link--youtube::before {
+  mask-image: url("../../icons/stack.svg#youtube");
+}
+
+.social__link--telegram::before {
+  mask-image: url("../../icons/stack.svg#telegram");
+}
+
+.social__link:hover::before,
+.social:focus-visible::before {
+  background-color: $color-accent;
+}
